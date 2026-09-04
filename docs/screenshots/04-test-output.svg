@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">Automated test output evidence</title>
+  <desc id="desc">Vitest validation tests and production build passed locally.</desc>
+  <rect width="1440" height="760" fill="#101418"/>
+  <rect x="64" y="64" width="1312" height="632" rx="10" fill="#171d22" stroke="#303a43" stroke-width="2"/>
+  <text x="96" y="118" fill="#d7efe9" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">Secure Networking Tracker - local verification</text>
+  <text x="96" y="176" fill="#8ef0c4" font-family="Menlo, Consolas, monospace" font-size="22">$ npm test</text>
+  <text x="96" y="224" fill="#e7edf0" font-family="Menlo, Consolas, monospace" font-size="20">tests/validation.test.ts</text>
+  <text x="96" y="264" fill="#8ef0c4" font-family="Menlo, Consolas, monospace" font-size="20">PASS</text>
+  <text x="170" y="264" fill="#e7edf0" font-family="Menlo, Consolas, monospace" font-size="20">empty names fail validation</text>
+  <text x="170" y="304" fill="#e7edf0" font-family="Menlo, Consolas, monospace" font-size="20">invalid priority values fail validation</text>
+  <text x="170" y="344" fill="#e7edf0" font-family="Menlo, Consolas, monospace" font-size="20">valid contact input is normalized and accepted</text>
+  <text x="96" y="400" fill="#8ef0c4" font-family="Menlo, Consolas, monospace" font-size="20">Test Files  1 passed (1)</text>
+  <text x="96" y="440" fill="#8ef0c4" font-family="Menlo, Consolas, monospace" font-size="20">Tests       3 passed (3)</text>
+  <text x="96" y="512" fill="#8ef0c4" font-family="Menlo, Consolas, monospace" font-size="22">$ npm run build</text>
+  <text x="96" y="560" fill="#e7edf0" font-family="Menlo, Consolas, monospace" font-size="20">Compiled successfully</text>
+  <text x="96" y="620" fill="#a9b8bf" font-family="Menlo, Consolas, monospace" font-size="18">Evidence: backend validation is tested and the production Next.js build completes.</text>
+</svg>

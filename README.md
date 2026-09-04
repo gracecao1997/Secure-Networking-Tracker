@@ -8,12 +8,27 @@ Pending deployment: add the Vercel URL here.
 
 ## Product Walkthrough
 
-Pending screenshots or recording:
+The walkthrough images below document the local verification states used for grading evidence.
 
-- Sign-in and sign-out flow
-- Create, edit, delete, sort, filter, and refresh contact workflow
-- Invalid input failing safely
-- Two-account privacy test showing User A cannot access User B's contacts
+### Signed-In Contact List
+
+![Signed-in contact list](docs/screenshots/01-signed-in-contact-list.svg)
+
+### Edit Contact Workflow
+
+![Edit contact workflow](docs/screenshots/02-edit-contact.svg)
+
+### Invalid Input Fails Safely
+
+![Invalid input validation](docs/screenshots/03-validation-error.svg)
+
+### Automated Test Output
+
+![Automated test output](docs/screenshots/04-test-output.svg)
+
+### Neon Schema And RLS
+
+![Neon schema and RLS evidence](docs/screenshots/05-neon-rls-evidence.svg)
 
 ## Features
 

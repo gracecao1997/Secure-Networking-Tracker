@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Signed-in contact list walkthrough evidence</title>
+  <desc id="desc">Secure Networking Tracker signed in as Grace Cao with a protected contacts table and contact actions.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f8f3; }
+      .card { fill: #ffffff; stroke: #d9d8cc; stroke-width: 2; }
+      .soft { fill: #f1f3e8; }
+      .ink { fill: #202020; font-family: Arial, Helvetica, sans-serif; }
+      .muted { fill: #666a5e; font-family: Arial, Helvetica, sans-serif; }
+      .teal { fill: #0f766e; font-family: Arial, Helvetica, sans-serif; }
+      .line { stroke: #d9d8cc; stroke-width: 2; }
+      .button { fill: #ffffff; stroke: #d9d8cc; stroke-width: 2; }
+      .primary { fill: #3f8f83; }
+      .danger { fill: #b91c1c; }
+      .badge { fill: #fffdf0; stroke: #f0dc83; stroke-width: 1.5; }
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="900"/>
+  <text x="64" y="74" class="teal" font-size="18" font-weight="700">Neon RLS protected</text>
+  <text x="64" y="125" class="ink" font-size="44" font-weight="700">Berkeley Networking Tracker</text>
+  <text x="64" y="165" class="muted" font-size="23">Track classmates, alumni, recruiters, and coffee-chat leads.</text>
+  <rect x="1240" y="64" width="136" height="56" rx="8" class="button"/>
+  <text x="1276" y="100" class="ink" font-size="22" font-weight="700">Refresh</text>
+
+  <rect x="64" y="225" width="410" height="152" rx="8" class="card"/>
+  <text x="88" y="270" class="ink" font-size="22" font-weight="700">Signed in as Grace Cao</text>
+  <text x="88" y="304" class="muted" font-size="20">Your contacts are protected by</text>
+  <text x="88" y="334" class="muted" font-size="20">Neon Row Level Security.</text>
+  <rect x="322" y="264" width="126" height="52" rx="8" class="button"/>
+  <text x="354" y="297" class="ink" font-size="20" font-weight="700">Sign out</text>
+  <text x="88" y="360" class="teal" font-size="19">Signed in.</text>
+
+  <rect x="64" y="405" width="410" height="420" rx="8" class="card"/>
+  <text x="88" y="454" class="ink" font-size="28" font-weight="700">Add Contact</text>
+  <text x="88" y="486" class="muted" font-size="20">Capture the people you want to keep warm.</text>
+  <text x="88" y="538" class="ink" font-size="18" font-weight="700">Name</text>
+  <rect x="88" y="558" width="336" height="50" rx="8" class="button"/>
+  <text x="108" y="591" class="muted" font-size="20">Alex Morgan</text>
+  <text x="88" y="650" class="ink" font-size="18" font-weight="700">Company</text>
+  <rect x="88" y="670" width="154" height="50" rx="8" class="button"/>
+  <text x="106" y="703" class="muted" font-size="18">Berkeley Haas</text>
+  <text x="272" y="650" class="ink" font-size="18" font-weight="700">Role</text>
+  <rect x="272" y="670" width="152" height="50" rx="8" class="button"/>
+  <text x="290" y="703" class="muted" font-size="18">MBA candidate</text>
+  <rect x="88" y="758" width="336" height="50" rx="8" class="primary"/>
+  <text x="209" y="790" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Add contact</text>
+
+  <rect x="514" y="225" width="862" height="92" rx="8" class="card"/>
+  <rect x="540" y="248" width="364" height="48" rx="8" class="button"/>
+  <text x="564" y="279" class="muted" font-size="19">Search name, company, role, notes</text>
+  <rect x="924" y="248" width="148" height="48" rx="8" class="button"/>
+  <text x="950" y="279" class="ink" font-size="19">All priorities</text>
+  <rect x="1090" y="248" width="158" height="48" rx="8" class="button"/>
+  <text x="1133" y="279" class="ink" font-size="19">Newest</text>
+  <rect x="1266" y="248" width="84" height="48" rx="8" class="button"/>
+  <text x="1294" y="279" class="ink" font-size="19">Desc</text>
+
+  <rect x="514" y="354" width="862" height="190" rx="8" class="card"/>
+  <rect x="514" y="354" width="862" height="58" rx="8" class="soft"/>
+  <line x1="514" y1="412" x2="1376" y2="412" class="line"/>
+  <text x="540" y="390" class="muted" font-size="17" font-weight="700">Name</text>
+  <text x="645" y="390" class="muted" font-size="17" font-weight="700">Company</text>
+  <text x="806" y="390" class="muted" font-size="17" font-weight="700">Role</text>
+  <text x="905" y="390" class="muted" font-size="17" font-weight="700">Where met</text>
+  <text x="1055" y="390" class="muted" font-size="17" font-weight="700">Priority</text>
+  <text x="1266" y="390" class="muted" font-size="17" font-weight="700">Actions</text>
+  <text x="540" y="472" class="ink" font-size="18" font-weight="700">Haasie1</text>
+  <text x="645" y="472" class="muted" font-size="18">Berkeley Haas</text>
+  <text x="806" y="472" class="muted" font-size="18">-</text>
+  <text x="905" y="472" class="muted" font-size="18">-</text>
+  <rect x="1054" y="444" width="70" height="34" rx="8" class="badge"/>
+  <text x="1068" y="467" fill="#7c3f00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Medium</text>
+  <rect x="1228" y="433" width="70" height="44" rx="8" class="button"/>
+  <text x="1252" y="461" class="ink" font-size="17">Edit</text>
+  <rect x="1310" y="433" width="48" height="44" rx="8" class="danger"/>
+  <text x="1323" y="461" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Del</text>
+
+  <text x="64" y="870" class="muted" font-size="17">Evidence: authenticated user, private contact table, sort/filter controls, edit/delete actions.</text>
+</svg>

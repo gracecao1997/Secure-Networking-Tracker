@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Edit contact walkthrough evidence</title>
+  <desc id="desc">Secure Networking Tracker edit mode with highlighted form and save changes action.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f8f3; }
+      .card { fill: #ffffff; stroke: #d9d8cc; stroke-width: 2; }
+      .edit { fill: #ffffff; stroke: #7dded2; stroke-width: 3; }
+      .soft { fill: #f1f3e8; }
+      .ink { fill: #202020; font-family: Arial, Helvetica, sans-serif; }
+      .muted { fill: #666a5e; font-family: Arial, Helvetica, sans-serif; }
+      .teal { fill: #0f766e; font-family: Arial, Helvetica, sans-serif; }
+      .line { stroke: #d9d8cc; stroke-width: 2; }
+      .button { fill: #ffffff; stroke: #d9d8cc; stroke-width: 2; }
+      .primary { fill: #3f8f83; }
+      .danger { fill: #b91c1c; }
+      .badge { fill: #fffdf0; stroke: #f0dc83; stroke-width: 1.5; }
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="900"/>
+  <text x="64" y="74" class="teal" font-size="18" font-weight="700">Neon RLS protected</text>
+  <text x="64" y="125" class="ink" font-size="44" font-weight="700">Berkeley Networking Tracker</text>
+  <text x="64" y="165" class="muted" font-size="23">Editing a saved contact keeps the same protected owner row.</text>
+
+  <rect x="64" y="225" width="410" height="620" rx="8" class="edit"/>
+  <text x="88" y="270" class="ink" font-size="28" font-weight="700">Edit Contact</text>
+  <text x="438" y="267" class="ink" font-size="28">x</text>
+  <text x="88" y="304" class="muted" font-size="20">Editing Haasie1. Update the fields and</text>
+  <text x="88" y="332" class="muted" font-size="20">save your changes.</text>
+  <text x="88" y="390" class="ink" font-size="18" font-weight="700">Name</text>
+  <rect x="88" y="410" width="336" height="50" rx="8" class="button"/>
+  <text x="108" y="443" class="ink" font-size="20">Haasie1</text>
+  <text x="88" y="502" class="ink" font-size="18" font-weight="700">Company</text>
+  <rect x="88" y="522" width="154" height="50" rx="8" class="button"/>
+  <text x="106" y="555" class="ink" font-size="18">Berkeley Haas</text>
+  <text x="272" y="502" class="ink" font-size="18" font-weight="700">Role</text>
+  <rect x="272" y="522" width="152" height="50" rx="8" class="button"/>
+  <text x="290" y="555" class="ink" font-size="18">MBA candidate</text>
+  <text x="88" y="614" class="ink" font-size="18" font-weight="700">Notes</text>
+  <rect x="88" y="634" width="336" height="92" rx="8" class="button"/>
+  <text x="108" y="668" class="ink" font-size="18">Follow up about clean energy</text>
+  <text x="108" y="696" class="ink" font-size="18">internships next week.</text>
+  <rect x="88" y="762" width="336" height="50" rx="8" class="primary"/>
+  <text x="200" y="794" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Save changes</text>
+
+  <rect x="514" y="225" width="862" height="92" rx="8" class="card"/>
+  <rect x="540" y="248" width="364" height="48" rx="8" class="button"/>
+  <text x="564" y="279" class="muted" font-size="19">Search name, company, role, notes</text>
+  <rect x="924" y="248" width="148" height="48" rx="8" class="button"/>
+  <text x="950" y="279" class="ink" font-size="19">All priorities</text>
+  <rect x="1090" y="248" width="158" height="48" rx="8" class="button"/>
+  <text x="1133" y="279" class="ink" font-size="19">Newest</text>
+  <rect x="1266" y="248" width="84" height="48" rx="8" class="button"/>
+  <text x="1294" y="279" class="ink" font-size="19">Desc</text>
+
+  <rect x="514" y="354" width="862" height="190" rx="8" class="card"/>
+  <rect x="514" y="354" width="862" height="58" rx="8" class="soft"/>
+  <line x1="514" y1="412" x2="1376" y2="412" class="line"/>
+  <text x="540" y="390" class="muted" font-size="17" font-weight="700">Name</text>
+  <text x="645" y="390" class="muted" font-size="17" font-weight="700">Company</text>
+  <text x="806" y="390" class="muted" font-size="17" font-weight="700">Role</text>
+  <text x="905" y="390" class="muted" font-size="17" font-weight="700">Where met</text>
+  <text x="1055" y="390" class="muted" font-size="17" font-weight="700">Priority</text>
+  <text x="1266" y="390" class="muted" font-size="17" font-weight="700">Actions</text>
+  <text x="540" y="472" class="ink" font-size="18" font-weight="700">Haasie1</text>
+  <text x="645" y="472" class="muted" font-size="18">Berkeley Haas</text>
+  <text x="806" y="472" class="muted" font-size="18">-</text>
+  <text x="905" y="472" class="muted" font-size="18">-</text>
+  <rect x="1054" y="444" width="70" height="34" rx="8" class="badge"/>
+  <text x="1068" y="467" fill="#7c3f00" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Medium</text>
+  <rect x="1228" y="433" width="70" height="44" rx="8" class="button"/>
+  <text x="1252" y="461" class="ink" font-size="17">Edit</text>
+  <rect x="1310" y="433" width="48" height="44" rx="8" class="danger"/>
+  <text x="1323" y="461" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Del</text>
+
+  <text x="64" y="870" class="muted" font-size="17">Evidence: edit workflow is visible, cancel/edit affordance is clear, save action updates an existing row.</text>
+</svg>
