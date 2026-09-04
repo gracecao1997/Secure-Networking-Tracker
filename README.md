@@ -94,6 +94,8 @@ Commit `.env.example` only. Keep `.env.local` and all real values out of Git.
 
 ## Database Schema
 
+The SQL setup enables `pgcrypto` for UUID generation and `pg_session_jwt` for the `auth.user_id()` helper used by Neon Auth/Data API RLS policies.
+
 The `contacts` table:
 
 | Column | Type | Rule |

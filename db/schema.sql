@@ -2,6 +2,7 @@
 -- Run this in the Neon SQL editor after enabling Managed Better Auth and the Data API.
 
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
+CREATE EXTENSION IF NOT EXISTS pg_session_jwt;
 
 CREATE TABLE IF NOT EXISTS contacts (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
