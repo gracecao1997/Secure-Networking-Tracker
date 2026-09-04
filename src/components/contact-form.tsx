@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import { Save, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input, Label, Select, Textarea } from "@/components/ui/field";
@@ -29,6 +29,7 @@ export function ContactForm({
   onSubmit,
 }: ContactFormProps) {
   const [input, setInput] = useState<ContactInput>(emptyInput);
+  const formRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     if (editingContact) {
@@ -40,6 +41,7 @@ export function ContactForm({
         notes: editingContact.notes,
         priority: editingContact.priority,
       });
+      formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     } else {
       setInput(emptyInput);
     }
@@ -54,14 +56,23 @@ export function ContactForm({
   }
 
   return (
-    <section className="rounded-[var(--radius)] border border-border bg-card p-4 shadow-sm">
+    <section
+      ref={formRef}
+      className={
+        editingContact
+          ? "rounded-[var(--radius)] border border-teal-300 bg-card p-4 shadow-sm ring-2 ring-teal-100"
+          : "rounded-[var(--radius)] border border-border bg-card p-4 shadow-sm"
+      }
+    >
       <div className="mb-4 flex items-start justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold text-foreground">
             {editingContact ? "Edit Contact" : "Add Contact"}
           </h2>
           <p className="text-sm text-muted-foreground">
-            Capture the people you want to keep warm after class, events, and coffee chats.
+            {editingContact
+              ? `Editing ${editingContact.name}. Update the fields and save your changes.`
+              : "Capture the people you want to keep warm after class, events, and coffee chats."}
           </p>
         </div>
         {editingContact ? (

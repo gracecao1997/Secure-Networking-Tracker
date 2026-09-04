@@ -52,20 +52,20 @@ export function ContactTable({ contacts, onEdit, onDelete }: ContactTableProps) 
                     <Button
                       type="button"
                       variant="secondary"
-                      size="icon"
+                      size="sm"
                       onClick={() => onEdit(contact)}
-                      aria-label={`Edit ${contact.name}`}
                     >
                       <Edit3 aria-hidden="true" className="h-4 w-4" />
+                      Edit
                     </Button>
                     <Button
                       type="button"
                       variant="danger"
-                      size="icon"
+                      size="sm"
                       onClick={() => onDelete(contact)}
-                      aria-label={`Delete ${contact.name}`}
                     >
                       <Trash2 aria-hidden="true" className="h-4 w-4" />
+                      Delete
                     </Button>
                   </div>
                 </td>
