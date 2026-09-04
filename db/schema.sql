@@ -66,3 +66,6 @@ USING (auth.user_id() = user_id);
 
 CREATE INDEX IF NOT EXISTS contacts_user_id_created_at_idx
 ON contacts (user_id, created_at DESC);
+
+GRANT USAGE ON SCHEMA public TO authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON contacts TO authenticated;
