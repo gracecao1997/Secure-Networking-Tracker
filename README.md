@@ -176,7 +176,20 @@ Before submitting, verify locally and in production:
 4. Confirm User B cannot see User A's contact.
 5. Attempt to access or modify User A's row directly through the app or Data API and confirm RLS blocks it.
 
-Add screenshot or recording evidence here.
+### Production UI verification — September 9, 2026 (UTC)
+
+Tested on the live Vercel app using two different authenticated accounts:
+
+1. User A created a synthetic contact named `Privacy Test A 20260909`, with company `Synthetic test data`.
+2. After a full browser reload, User A searched for that name and the saved contact was still displayed.
+3. User A signed out; the app returned to the sign-in screen and hid the contact list.
+4. User B signed in. The same search returned **No contacts found**, with no Edit or Delete action for User A's contact.
+
+**Result:** UI-level account isolation and refresh persistence passed.
+
+Actual production browser screenshots were captured as `privacy-test-a-20260909.jpg` and `privacy-test-b-20260909.jpg`. Upload to `docs/screenshots/` is pending. The synthetic contact was retained for follow-up verification.
+
+**Coverage limit:** Direct authenticated Data API attempts to read, update, or delete User A's row as User B have not yet been performed. These UI results do not establish database-level cross-account mutation protection.
 
 ## Deployment
 
