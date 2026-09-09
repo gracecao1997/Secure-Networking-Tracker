@@ -4,7 +4,7 @@ Secure Networking Tracker is a small full-stack web app for tracking Berkeley ne
 
 ## Live App
 
-Pending deployment: add the Vercel URL here.
+[Open the live app](https://secure-networking-tracker-teal.vercel.app)
 
 ## Product Walkthrough
 
